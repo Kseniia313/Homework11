@@ -34,7 +34,8 @@ public class Main {
         }
         return 0;
     }
-    public static int countDaysForDelivery (int deliveryDistance) {
+
+    public static int countDaysForDelivery(int deliveryDistance) {
         if (deliveryDistance < 20) {
             System.out.println(" Потребуется один день для доставки ");
         } else if (deliveryDistance < 60) {
