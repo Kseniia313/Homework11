@@ -28,13 +28,14 @@ public class Main {
     public static int toDefineVersion(int deviceYear) {
         int currentYear = LocalDate.now().getYear();
         if (deviceYear == currentYear) {
-            System.out.print("  Вам нужна обычная версия, установите приложение");
+            System.out.print("  Вам нужна обычная версия, установите приложение ");
         } else {
-            System.out.print(" Вам нужна облегченная версия, установите приложение");
+            System.out.print(" Вам нужна облегченная версия, установите приложение ");
         }
         return 0;
     }
-    public static int countDaysForDelivery (int deliveryDistance) {
+
+    public static int countDaysForDelivery(int deliveryDistance) {
         if (deliveryDistance < 20) {
             System.out.println(" Потребуется один день для доставки ");
         } else if (deliveryDistance < 60) {
@@ -71,19 +72,7 @@ public class Main {
     }
 }
 
-//   Пыталась сделать код для одного метода, но не понимаю как привязать дни к дистанциям. Подскажите, пожалуйста, направление или логику? :)
 
-//    public static int countDayForDelivery(int [] Distance) {
-//        int[] distances = {20, 60, 100};
-//        int[] days = {1,2,3};
-//        int km = 0;
-//        for (int element:distances) {
-//            if (km<element) {
-//                System.out.println(" Нужно " + days[element]);
-//            }
-//        }
-//        return km;
-//    }
 
 
 
