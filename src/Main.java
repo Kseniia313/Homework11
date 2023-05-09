@@ -28,9 +28,9 @@ public class Main {
     public static int toDefineVersion(int deviceYear) {
         int currentYear = LocalDate.now().getYear();
         if (deviceYear == currentYear) {
-            System.out.print("  Вам нужна обычная версия, установите приложение");
+            System.out.print("  Вам нужна обычная версия, установите приложение ");
         } else {
-            System.out.print(" Вам нужна облегченная версия, установите приложение");
+            System.out.print(" Вам нужна облегченная версия, установите приложение ");
         }
         return 0;
     }
